@@ -15,6 +15,7 @@ Data Sets to be Used:
 - FEMA Data Feeds (FEMA Web Disaster Summaries, Individual Assistance Housing Registrants Large Disasters, etc)
 - Federal Reserve of St Louis 
 - Zillow API (multiple data sets available)
+- Google or GeoFRED for mapping
 
 Rough Break-down of Tasks:
 - Import the data sets
