@@ -9,6 +9,7 @@ Research Questions to Answer:
 - Which natural disaster type has the most impact on housing prices?
 - Which areas experence the those disaster types most frequently?
 - How do those homes value compare to the rest of the US?
+- Are there any factors that help or hinder recovery of housing prices?
 
 Data Sets to be Used:
 - FEMA Data Feeds (FEMA Web Disaster Summaries, Individual Assistance Housing Registrants Large Disasters, etc)
