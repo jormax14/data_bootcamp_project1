@@ -19,3 +19,6 @@ I think we should break data manipulation into three steps.
     - We then merge the two data sets to only include the desired zip codes. 
     - We can find the 12 months before and after by finding the desired index value through a loop function, then using another loop to find column -12 to column +12. from the event date.
     - Once we have the data complided we construct a DF with a Column index showing all the data for months -12 to +12. We can then do analysis on the data. 
+
+
+Looks great, Lee!! - Diana
