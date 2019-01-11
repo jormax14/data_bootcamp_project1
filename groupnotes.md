@@ -21,3 +21,6 @@ I think we should break data manipulation into three steps.
     - Once we have the data complided we construct a DF with a Column index showing all the data for months -12 to +12. We can then do analysis on the data. 
  test
 
+
+
+Looks great, Lee!! - Diana
