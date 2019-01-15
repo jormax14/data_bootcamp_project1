@@ -33,27 +33,27 @@ Rough Break-down of Tasks:
 Notebook Legend:
 
 FEMA Data Clean
--This notebook takes data downloaded from FEMA
--It cleans the FEMA data by:
--Deleting the irrelevant columns
--Removes incomplete data sets
--Renames columns to desired values
--Sorts data so the begin date matches our Zillow data set.
--Formats the county data so we can merge with Zillow. 
--Finds the top 6 disaster types, that have over 1,000 observations
+- This notebook takes data downloaded from FEMA
+- It cleans the FEMA data by:
+    - Deleting the irrelevant columns
+    - Removes incomplete data sets
+    - Renames columns to desired values
+    - Sorts data so the begin date matches our Zillow data set.
+    - Formats the county data so we can merge with Zillow. 
+    - Finds the top 6 disaster types, that have over 1,000 observations
 Zillow Cleaner
--This notebook takes data downloaded from Zillow 
--It cleans the Zillow data by:
--Deleting the irrelevant columns
--Setting the county data as the new index for the merge
--Finds the Month over Month Change is Real Estate prices by Zip Code
--Saves the Data to CSV
--Finds the population average return for all zip codes
--Saves the Population data return to CSV
+- This notebook takes data downloaded from Zillow 
+- It cleans the Zillow data by:
+    - Deleting the irrelevant columns
+    - Setting the county data as the new index for the merge
+    - Finds the Month over Month Change is Real Estate prices by Zip Code
+- Saves the Data to CSV
+- Finds the population average return for all zip codes
+- Saves the Population data return to CSV
 FEMA Zillow Merge
--This notebook takes all the cleaned data and merges it together
--Imports the FEMA and Zillow Data
--Merges the data together based on two contigentent vairables, "County Name" and "State"
--Verifies data integrity
--Saves the data to CSV
+- This notebook takes all the cleaned data and merges it together
+- Imports the FEMA and Zillow Data
+- Merges the data together based on two contigentent vairables, "County Name" and "State"
+- Verifies data integrity
+- Saves the data to CSV
 
