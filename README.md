@@ -41,6 +41,7 @@ FEMA Data Clean
     - Sorts data so the begin date matches our Zillow data set.
     - Formats the county data so we can merge with Zillow. 
     - Finds the top 6 disaster types, that have over 1,000 observations
+	
 Zillow Cleaner
 - This notebook takes data downloaded from Zillow 
 - It cleans the Zillow data by:
@@ -50,6 +51,7 @@ Zillow Cleaner
 - Saves the Data to CSV
 - Finds the population average return for all zip codes
 - Saves the Population data return to CSV
+
 FEMA Zillow Merge
 - This notebook takes all the cleaned data and merges it together
 - Imports the FEMA and Zillow Data
