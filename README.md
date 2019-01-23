@@ -13,14 +13,14 @@ Research Questions to Answer:
 
 Data Sets to be Used:
 - FEMA Data Feeds (FEMA Web Disaster Summaries, Individual Assistance Housing Registrants Large Disasters, etc)
-- Federal Reserve of St Louis 
+- Federal Reserve of St Louis
 - Zillow API (multiple data sets available)
 - Google or GeoFRED for mapping
 
 Rough Break-down of Tasks:
 - Import the data sets
 - Cleanse
-- Convert into format that allows for place and date 
+- Convert into format that allows for place and date
 - Merge data sets
 - Exploratory data analysis
 - Create visualizations
@@ -39,11 +39,11 @@ FEMA Data Clean
     - Removes incomplete data sets
     - Renames columns to desired values
     - Sorts data so the begin date matches our Zillow data set.
-    - Formats the county data so we can merge with Zillow. 
+    - Formats the county data so we can merge with Zillow.
     - Finds the top 6 disaster types, that have over 1,000 observations
 	
 Zillow Cleaner
-- This notebook takes data downloaded from Zillow 
+- This notebook takes data downloaded from Zillow
 - It cleans the Zillow data by:
     - Deleting the irrelevant columns
     - Setting the county data as the new index for the merge
