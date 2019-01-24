@@ -59,3 +59,17 @@ FEMA Zillow Merge
 - Verifies data integrity
 - Saves the data to CSV
 
+Normalized Data
+- This Notebook converts all the raw data into useable information.
+- It takes all the data and bins it to 1, 2, 3, 4, 5 and 6 months after the event for both the variable group, and the population group.
+    - It takes the data and sorts it by event, county, then zip code.
+    - Then it saves the new information into CSVs for charting later.
+- Then it runs the statistical test on a desired data frame to determine if there is a statistical difference in medians.
+- Finally, it converts these dataframes into index values and put into a list.
+    -It saves the new indexed data frame into a CSV for charting later.
+
+Charting
+- This notebook takes all of the CSVs generated in the "Normalized Data" notebook
+- It creates charts for each disaster type, and the indexed information.
+
+
